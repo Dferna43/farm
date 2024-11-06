@@ -1,9 +1,6 @@
 
 
-Add to text content
-Habibi
-Add to headings
-Heading: "Irish Grover
+/*
 
 Sizes
 H1: 2.5em
@@ -17,10 +14,13 @@ White: #ffffff
 */
 
 /* -------------------- IMPORTED FONTS -------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap')
 
 body {
     font-family: 'Habibi',
+    background-color: blue;
+    color: white;
 }
 heading {
     font-family: 'Irish Grover';
