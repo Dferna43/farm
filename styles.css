@@ -1,6 +1,4 @@
-/* Fonts
-Add to your CSS Under Imported Fonts
-@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap')
+
 
 Add to text content
 Habibi
@@ -17,3 +15,20 @@ Orange: #E75D02
 Black: #000000
 White: #ffffff
 */
+
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap')
+
+body {
+    font-family: 'Habibi',
+}
+heading {
+    font-family: 'Irish Grover';
+}
+
+/*-------------------- CSS RESET ---------------------------------------------------*/
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
