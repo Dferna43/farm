@@ -70,6 +70,7 @@ nav ul {
 
 nav li {
     list-style: none;
+    border: #ffffff;
 }
 
 nav ul li {
@@ -85,16 +86,27 @@ nav a {
     font-size: 1.5em;
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
 }
 
 nav a:hover {
     background-color: lightgray;
     color: black;
+    transition: background-color 0.3s, 0.3s;
 }
 
-nav ul li:has(a[href="top"]) {
-    display: none;
+.top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    z-index: 2;
 }
+
+/* nav ul li:has(a[href="top"]) {
+    display: none;
+} */
 
 main {
     display: flex;
@@ -216,6 +228,20 @@ h2 {
         justify-content: space-between;
         align-items: flex-start;
         padding: 20px;
+        background-color: #06A816;
+    }
+
+    .main_heading {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        width: 300px;
     }
 
     .img {
@@ -241,6 +267,35 @@ h2 {
 
 /*-------------------- MEDIA QUERY (XL 1440px) ----------------*/
 @media screen and (min-width: 1440px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        background-color: #06A816;
+    }
+
+    .main_heading {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main_nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        width: 300px;
+    }
+
     .img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
