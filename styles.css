@@ -144,7 +144,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-   margin-left: 20%;
+    margin-left: 20%;
 }
 
 .img div {
@@ -161,7 +161,6 @@ h2 {
     position: absolute;
     bottom: 145px;
     left: 85px;
-    width: 100;
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     font-weight: bold;
